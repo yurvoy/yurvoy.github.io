@@ -1,0 +1,46 @@
+
+.menu-nav{
+    margin: 0 auto;
+}
+
+.menu-nav ul{
+    text-align: center;
+}
+
+.menu-nav ul li.btn{
+    display: inline-block;
+    margin-top: 4px;
+    position: relative;
+    list-style: none;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #6b6b6b;
+    text-align: center;
+    font-size: 20px;
+}
+
+.menu-nav ul li.btn a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-nav ul li.btn a:hover{
+    background-color:#999999;
+    transition: 0.5s;
+}
+
+.menu-nav ul ul{
+    position: absolute;
+}
+
+.menu-nav ul li.btn ul li {
+    display: none;
+}
+
+.menu-nav ul li.btn:hover ul li {
+    display: block;
+}
+
+

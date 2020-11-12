@@ -1,0 +1,32 @@
+.contact-form{
+    display: block;
+    max-width: 800px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contact-form-text{
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    margin: 10px;
+    color: white;
+    background-color: #6b6b6b;
+    border: 0;
+}
+
+.contact-form-btn{
+    font-size: 18px;
+    float: right;
+    width: 10%;
+    border: 0;
+    color: white;
+    background-color: #6b6b6b;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.textarea.contact-form-text{
+    resize: none;
+
+}
