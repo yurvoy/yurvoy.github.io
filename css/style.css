@@ -1,6 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
+body{
+    height:100%;
+    color: black;
+    margin: 0;
+    font-family: 'Ubuntu Mono', monospace;
+    line-height: 20px;
+}
 
 h1{
     text-align: center;
@@ -17,16 +24,6 @@ p{
     width: 40%;
 }
 
-main{
-    margin: 0 auto;
-}
-
-body{
-    color: black;
-
-    font-family: 'Ubuntu Mono', monospace;
-}
-
 ul{
     margin: 0px;
     padding: 0px;
@@ -34,9 +31,9 @@ ul{
 }
 
 footer{
-    position: absolute;
+    position: fixed;
     color: white;
-    background-color: #6b6b6b;
+    background-color: #636467;
     width: 100%;
     padding: 8px 10px 8px 10px;
     bottom: 0;
@@ -48,4 +45,3 @@ footer{
     margin-right: auto;
     width: 50%;
 }
-
