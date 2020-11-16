@@ -3,11 +3,23 @@
     max-width: 800px;
     margin: auto;
     padding: 0 10px;
+    text-align: center;
 }
 
 .contact-form-text{
     font-size: 16px;
     display: block;
+    width: 60%;
+    margin: 10px;
+    color: white;
+    background-color: #6b6b6b;
+    border: 0;
+}
+
+.contact-form-message{
+    font-size: 16px;
+    display: block;
+    height: 400px;
     width: 100%;
     margin: 10px;
     color: white;
