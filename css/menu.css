@@ -4,11 +4,14 @@
 
 .menu-nav ul {
     text-align: center;
+    z-index: 9;
+    background: white;
+    margin: 0 -4px;
 }
 
 .menu-nav ul li.btn {
     display: inline-block;
-    margin-top: 4px;
+    margin: 4px;
     position: relative;
     list-style: none;
     width: 140px;
