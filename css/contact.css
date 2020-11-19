@@ -73,18 +73,3 @@
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: white;
 }
-
-@media screen and (max-width: 600px) {
-  .contact-form {
-    flex-direction: column;
-  }
-
-  .msg textarea {
-    height: 80px;
-  }
-
-  .input-fields,
-  .msg {
-    width: 100%;
-  }
-}
