@@ -54,5 +54,8 @@ footer {
 
 #resizer {
     margin-top: -60px;
-    padding-right: 148px;
+}
+
+#padded-h2 {
+    margin-left: 146px;
 }
