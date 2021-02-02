@@ -16,7 +16,7 @@ h1 {
 
 h2 {
     text-align: center;
-    padding-top: 20px;
+
 }
 
 p {
@@ -52,10 +52,7 @@ footer {
     margin-top: 10px;
 }
 
-#resizer {
-    margin-top: -60px;
-}
-
-#padded-h2 {
-    margin-left: 146px;
+.logo {
+    margin: 2em;
+    display: flex;
 }
